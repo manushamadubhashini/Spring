@@ -1,0 +1,133 @@
+body {
+  background-color: #1a1d21;
+  color: #ffffff;
+}
+
+.table thead {
+  background-color:  #1f2029;
+  color: white;
+}
+.table thead tr td{
+  background-color:  #1f2029; !important;
+   color: white;
+   text-align: center;
+}
+.table tbody tr td {
+  background-color: #1a1d21;!important;
+  color: white !important;
+  text-align: center;
+}
+.btn{
+  background-color: black;
+  border: 1px solid red;
+  color: white;
+}
+.btn:hover{
+  background-color: black;
+  color: red;
+  border: 1px solid white;
+}
+.table-bordered {
+  border-color: red !important;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+}
+#addBtn{
+  position: relative;
+  left: 90%;
+  margin-top: 4%;
+}
+h1{
+  -webkit-text-stroke: 1px red;
+  color: black;
+  font-size: 60px;
+}
+.modal-content{
+  background-color: #1a1d21;
+  padding: 10%;
+  border: 1px solid red;
+}
+.form-control{
+  background-color: #1a1d21;
+  border: 1px solid red;
+  color: white;
+  /*margin-left: 7%;*/
+}
+h2{
+  margin-bottom: 8%;
+  -webkit-text-stroke: 0.7px red;
+  color: black;
+  font-size: 40px;
+  text-align: center;
+
+}
+#btn_save_customer,
+#btn_update_customer{
+  padding: 2% 10%;
+  position: relative;
+  left: 35%;
+  margin-top: 3%;
+}
+#btn_update_customer{
+  left: 32% !important;
+}
+.box-container{
+  display: flex;
+}
+/*#name{*/
+/*  margin-left: 13%;*/
+/*}*/
+/*#age{*/
+/*  margin-left: 17%;*/
+/*}*/
+.box-label{
+  width: 100px;
+  height: 50px;
+  border: 1px solid red;
+  text-align: center;
+  padding-top: 3%;
+  background-color: black;
+
+}
+.form-control[type="file"] {
+  color: white;
+  padding: 6px;
+}
+
+/* Remove default file input styling */
+.form-control[type="file"]::-webkit-file-upload-button {
+  visibility: hidden;
+  width: 0;
+}
+
+/* Custom file input button */
+.form-control[type="file"]::before {
+  content: 'Choose File';
+  display: inline-block;
+  background: #2a2a2a;
+  border: 1px solid #ff0000;
+  border-radius: 3px;
+  padding: 5px 8px;
+  outline: none;
+  white-space: nowrap;
+  cursor: pointer;
+  color: white;
+  font-size: 14px;
+  margin-right: 10px;
+  height: 38px;
+}
+
+/* Hover state */
+.form-control[type="file"]:hover::before {
+  background-color: #3a3a3a;
+}
+
+/* Active state */
+.form-control[type="file"]:active::before {
+  background-color: #2a2a2a;
+}
+.form-control:focus {
+  background-color: #1a1a1a; /* Dark background */
+  color: #fff; /* White text */
+  border-color: #ff0000; /* Red border to match your theme */
+  box-shadow: 0 0 0 0.2rem rgba(255, 0, 0, 0.25); /* Red glow effect */
+}

@@ -2,11 +2,20 @@ package lk.ijse.controller;
 
 import lk.ijse.dto.CustomerDTO;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.multipart.MultipartFile;
 
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.nio.file.StandardCopyOption;
 import java.util.ArrayList;
+import java.util.UUID;
+
 @RestController
 @RequestMapping("api/v1/customer")
-@CrossOrigin
+@CrossOrigin("http://localhost:63342")
+//@CrossOrigin
 public class CustomerController {
 
     ArrayList<CustomerDTO> customerDTOArrayList=new ArrayList<>();

@@ -1,6 +1,0 @@
-const fetchCustomerData = () =>{
-  $.ajax({
-
-  })
-}
-fetchCustomerData

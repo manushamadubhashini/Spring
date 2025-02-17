@@ -8,7 +8,7 @@ const getAllCustomer=()=>{
       res.forEach(customer => {
         $('#customer_table_body').append(`
                  <tr>
-                    <td>${customer.id}</td>
+                    <td>${customer.id}</td>//display customer id
                     <td>${customer.name}</td>
                     <td>${customer.address}</td>
                     <td>${customer.age}</td>
@@ -21,7 +21,7 @@ const getAllCustomer=()=>{
                        <td>
                             <button class="btn btn-light btn-sm" onclick="deleteCustomer('${customer.id}')">
                               Dalete
-                             </button>
+                             </button>-
                         </td>
                      </tr>
 

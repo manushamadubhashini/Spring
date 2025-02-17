@@ -15,6 +15,7 @@
         <module name="01_Spring_Core" />
         <module name="06_Runtime_Value_Injection" />
         <module name="12_Spring_Data_JPA" />
+        <module name="07_Spring_Enviroment" />
       </profile>
       <profile name="Annotation profile for 13_Spring_Boot" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
@@ -22,12 +23,12 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="false">
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/unknown/lombok-unknown.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/unknown/lombok-unknown.jar" />
         </processorPath>
         <module name="_13_Spring_Boot" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="07_Spring_Enviroment" target="17" />
       <module name="module1" target="17" />
     </bytecodeTargetLevel>
   </component>

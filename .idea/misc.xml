@@ -19,6 +19,7 @@
         <option value="$PROJECT_DIR$/13_Spring_Boot/pom.xml" />
         <option value="$PROJECT_DIR$/07_Spring_Enviroment/pom.xml" />
         <option value="$PROJECT_DIR$/Spring Framework/02_Spring_Bean_Life_Cycle/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring Framework/03_Spring_DI/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

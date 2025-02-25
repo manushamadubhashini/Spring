@@ -4,13 +4,13 @@ public class ItemDTO {
     private int id;
     private String name;
     private String description;
-    private String qty;
+    private int qty;
     private double price;
 
     public ItemDTO() {
     }
 
-    public ItemDTO(int id, String name, String description, String qty, double price) {
+    public ItemDTO(int id, String name, String description, int qty, double price) {
         this.id = id;
         this.name = name;
         this.description = description;
@@ -42,11 +42,11 @@ public class ItemDTO {
         this.description = description;
     }
 
-    public String getQty() {
+    public int getQty() {
         return qty;
     }
 
-    public void setQty(String qty) {
+    public void setQty(int qty) {
         this.qty = qty;
     }
 

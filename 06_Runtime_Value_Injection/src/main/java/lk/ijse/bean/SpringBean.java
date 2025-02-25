@@ -20,7 +20,7 @@ public class SpringBean implements InitializingBean {
 //        System.out.println("Spring Bean");
 //        System.out.println(name);
 //        System.out.println(id);
-//
+//0
 //    }
     @Value("manusha")
     private String name;

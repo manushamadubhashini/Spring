@@ -17,6 +17,7 @@
         <module name="12_Spring_Data_JPA" />
         <module name="07_Spring_Enviroment" />
         <module name="02_Spring_Bean_Life_Cycle" />
+        <module name="_03_Spring_DI" />
       </profile>
       <profile name="Annotation profile for 13_Spring_Boot" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />

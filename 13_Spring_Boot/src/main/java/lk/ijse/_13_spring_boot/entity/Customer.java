@@ -1,9 +1,6 @@
 package lk.ijse._13_spring_boot.entity;
 
-import jakarta.persistence.CascadeType;
-import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
-import jakarta.persistence.OneToMany;
+import jakarta.persistence.*;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -11,11 +8,14 @@ import java.util.List;
 @Entity
 public class Customer {
     @Id
+    @Column(name = "customer_id")
     private int id;
+    @Column(name = "customer_name")
     private String name;
+    @Column(name = "customer_address")
     private String address;
 
-    @OneToMany(mappedBy = "customer", cascade = CascadeType.ALL, orphanRemoval = true)
+    @OneToMany(mappedBy = "customer", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
     private List<Order> orders = new ArrayList<>();
 
 
